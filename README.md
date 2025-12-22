@@ -35,7 +35,7 @@ Welcome to my GitHub! I'm a data scientist and engineer who thrives at the inter
 I'm always excited to collaborate on projects at the intersection of data, AI, and meaningful impact.  
 Feel free to explore my repos or reach out!
 
-[LinkedIn](https://www.linkedin.com/in/your-linkedin/) • [Email](mailto:your.email@example.com)
+[LinkedIn](https://www.linkedin.com/in/jaynagabhairu/) • [Email](mailto:jaynagabhairu@gmail.com)
 
 ---
 
