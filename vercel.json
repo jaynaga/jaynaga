@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd health-insights && npm install && npm run build",
+  "outputDirectory": "health-insights/dist",
+  "framework": null
+}
