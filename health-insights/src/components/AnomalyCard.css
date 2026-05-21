@@ -1,0 +1,113 @@
+.anomaly-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Empty state */
+.anomaly-empty {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.anomaly-empty-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(111, 207, 151, 0.12);
+  border: 1px solid rgba(111, 207, 151, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-green);
+  margin-top: 2px;
+}
+
+.anomaly-empty-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.anomaly-empty-body {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+/* Items */
+.anomaly-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.anomaly-item--pattern {
+  border-color: rgba(167, 139, 250, 0.22);
+}
+
+.anomaly-item--warn {
+  border-color: rgba(247, 183, 49, 0.2);
+}
+
+.anomaly-item--positive {
+  border-color: rgba(111, 207, 151, 0.18);
+}
+
+.anomaly-item-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.anomaly-item-icon--pattern {
+  background: rgba(167, 139, 250, 0.12);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  color: var(--accent-purple);
+}
+
+.anomaly-item-icon--warn {
+  background: rgba(247, 183, 49, 0.1);
+  border: 1px solid rgba(247, 183, 49, 0.22);
+  color: var(--accent-amber);
+}
+
+.anomaly-item-icon--positive {
+  background: rgba(111, 207, 151, 0.1);
+  border: 1px solid rgba(111, 207, 151, 0.2);
+  color: var(--accent-green);
+}
+
+.anomaly-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.anomaly-item-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.anomaly-item-text {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.anomaly-item-caveat {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  font-style: italic;
+}
