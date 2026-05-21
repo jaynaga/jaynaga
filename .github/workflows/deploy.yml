@@ -36,8 +36,6 @@ jobs:
         env:
           VITE_BASE_URL: /jaynaga/
 
-      - uses: actions/configure-pages@v4
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: health-insights/dist
