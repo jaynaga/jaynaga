@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Jay Nagabhairu
 
 <p align="center">
-  <img src="Jay.jpg" alt="Jay Nagabhairu" width="320" />
+  <img src="Jay.jpeg" alt="Jay Nagabhairu" width="320" />
 </p>
 
 I'm a data scientist and ML engineer building AI for healthcare. By day, I build production ML and LLM systems for federal health agencies, which means most of my commits land in private repos. The pinned projects below are personal work I'm able to share.
